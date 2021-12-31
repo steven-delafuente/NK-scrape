@@ -17,7 +17,7 @@ def get_url_list(soup):
     return url_list
 
 
-def parse_target_url(soup, iter_num):
+def parse_target_url(url_list, iter_num):
     """ Get target URL (Article URL) from article wraper.
         iter_num required to maintain cosistancy across article url,
         date, title ect...
